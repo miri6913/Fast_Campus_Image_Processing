@@ -1,1 +1,24 @@
 Hello
+
+### Part 0. 이미지 분류를 위한 Pytorch의 기본
+Contrast Normalization - GCN, LCN
+Data Augmentation
+TorchVision
+transforms.RandomCrop(224)
+transforms.RandomHorizontalFlip(), VerticalFlip
+RandomRotation
+RandomAffine
+ColorJitter
+RandomAdjustSharpness
+RandomChoice
+RandomApply
+AutoAugment
+scheduler.step()
+Pooling - 입력 영상을 down sampling 작업 (max, average pooling)
+residual - qoldiq
+TorchVision, timm
+Dropout에서는 왜 시간이 증가하는가?
+Learning rate scheduler
+Optimizer
+Confusion matrix
+Recall이 중요한 상황도 있고 Precision도 중요한 상황이 있음
