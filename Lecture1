@@ -2,6 +2,22 @@ Hello
 
 ### Part 0. 이미지 분류를 위한 Pytorch의 기본
 Contrast Normalization - GCN, LCN
+    **Global Contrast Normalization (GCN)**
+    **What**: GCN normalizes the contrast of an image **using global statistics** (mean and standard deviation across the whole image).
+    **Why**: To reduce brightness differences and standardize images.
+    **How**: Subtract mean and divide by std deviation.
+    **Example**:
+    ```python
+    def global_contrast_normalization(X, scale=1.0, eps=1e-8):
+        mean = X.mean()
+        std = X.std()
+        return scale * (X - mean) / max(std, eps)
+    ```
+    **Local Contrast Normalization (LCN)**
+    **What**: LCN normalizes each pixel **using local neighborhood** statistics.
+    **Why**: Enhances local features like edges and textures.
+    **Use case**: Often used in early layers of CNNs or preprocessing.
+
 Data Augmentation
 TorchVision
 transforms.RandomCrop(224)
