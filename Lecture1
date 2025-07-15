@@ -19,6 +19,10 @@ Contrast Normalization - GCN, LCN
     **Use case**: Often used in early layers of CNNs or preprocessing.
 
 Data Augmentation
+- **What**: Techniques used to artificially increase dataset size by creating modified versions of original images.
+- **Why**: Prevent overfitting, improve generalization.
+- **How**: Apply transformations like crop, flip, rotation, etc.
+
 TorchVision
 transforms.RandomCrop(224)
 transforms.RandomHorizontalFlip(), VerticalFlip
