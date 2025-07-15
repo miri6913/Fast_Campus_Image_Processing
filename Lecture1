@@ -24,6 +24,9 @@ Data Augmentation
 - **How**: Apply transformations like crop, flip, rotation, etc.
 
 TorchVision
+- **What**: PyTorch library for computer vision with datasets, model architectures, and image transforms.
+- **Where**: `torchvision.transforms` is heavily used for preprocessing and data augmentation.
+
 transforms.RandomCrop(224)
 transforms.RandomHorizontalFlip(), VerticalFlip
 RandomRotation
