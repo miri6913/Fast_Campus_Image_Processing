@@ -28,6 +28,9 @@ TorchVision
 - **Where**: `torchvision.transforms` is heavily used for preprocessing and data augmentation.
 
 transforms.RandomCrop(224)
+- **What**: Randomly crops a square patch of size `224x224` from the input image.
+- **Why**: Forces model to focus on different parts of the image.
+
 transforms.RandomHorizontalFlip(), VerticalFlip
 RandomRotation
 RandomAffine
