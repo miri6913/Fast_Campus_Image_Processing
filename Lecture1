@@ -32,6 +32,9 @@ transforms.RandomCrop(224)
 - **Why**: Forces model to focus on different parts of the image.
 
 transforms.RandomHorizontalFlip(), VerticalFlip
+- **What**: Flips the image randomly along horizontal or vertical axis.
+- **Why**: Helps model learn that orientation doesn’t always matter.
+
 RandomRotation
 RandomAffine
 ColorJitter
