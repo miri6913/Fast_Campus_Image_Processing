@@ -36,6 +36,9 @@ transforms.RandomHorizontalFlip(), VerticalFlip
 - **Why**: Helps model learn that orientation doesn’t always matter.
 
 RandomRotation
+- **What**: Rotates the image by a random angle.
+- **Why**: Makes the model rotation-invariant.
+
 RandomAffine
 ColorJitter
 RandomAdjustSharpness
