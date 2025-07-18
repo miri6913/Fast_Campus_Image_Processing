@@ -40,6 +40,15 @@ RandomRotation
 - **Why**: Makes the model rotation-invariant.
 
 RandomAffine
+- **What**: Applies random affine transformations (rotation, translation, shear, scale).
+- **Why**: More flexible than basic rotation/translation.
+
+**Example**:
+
+```python
+transforms.RandomAffine(degrees=15, translate=(0.1, 0.1), scale=(0.9, 1.1), shear=10)
+```
+
 ColorJitter
 RandomAdjustSharpness
 RandomChoice
