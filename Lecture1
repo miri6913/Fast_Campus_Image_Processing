@@ -50,6 +50,15 @@ transforms.RandomAffine(degrees=15, translate=(0.1, 0.1), scale=(0.9, 1.1), shea
 ```
 
 ColorJitter
+- **What**: Randomly changes brightness, contrast, saturation, and hue.
+- **Why**: Simulates different lighting conditions.
+
+**Example**:
+
+```python
+transforms.ColorJitter(brightness=0.2, contrast=0.3, saturation=0.4, hue=0.1)
+```
+
 RandomAdjustSharpness
 RandomChoice
 RandomApply
