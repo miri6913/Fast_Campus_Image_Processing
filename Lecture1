@@ -77,3 +77,9 @@ Recall이 중요한 상황도 있고 Precision도 중요한 상황이 있음
 ### **Part 1. 컴퓨터 비전의 핵심, 3단계로 끝내는 이미지 분류 마스터**
 Data-Driven approach
 Binary Cross-Entropy loss function
+
+Style Transfer
+Content Image + Style Image = Generated Image
+Loss function for Neural Style Transfer
+Style Matrix or Gram Matrix
+DenseNet
