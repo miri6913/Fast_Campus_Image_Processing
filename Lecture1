@@ -83,3 +83,6 @@ Content Image + Style Image = Generated Image
 Loss function for Neural Style Transfer
 Style Matrix or Gram Matrix
 DenseNet
+BCEWithLogisticLoss
+tqdm?
+tensorboard&weight and bias dashboard
