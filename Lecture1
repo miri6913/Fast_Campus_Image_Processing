@@ -86,3 +86,8 @@ DenseNet
 BCEWithLogisticLoss
 tqdm?
 tensorboard&weight and bias dashboard
+
+EfficientNet
+Compound scaling
+MBConc Blocks
+imgaug Sometimes
