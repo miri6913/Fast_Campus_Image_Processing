@@ -94,3 +94,5 @@ imgaug Sometimes
 
 Why we do unsqueeze while testing the model?
 with in python
+
+네트워크 최적화
