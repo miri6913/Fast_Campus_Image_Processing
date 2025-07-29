@@ -100,3 +100,9 @@ with in python
 Timm Library
 moderl.eval()
 torch.no_grad()
+
+glob()
+recursive in glob
+map()
+
+## **Chapter 3. Multi Label Classification : 두 개 이상의 선택지에서 여러 객체를 분류하는 분류 방법**
