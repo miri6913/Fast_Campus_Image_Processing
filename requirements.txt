@@ -1,0 +1,8 @@
+numpy
+matplotlib
+Pillow
+tqdm
+torch
+torchvision
+imgaug
+numpy==1.26
